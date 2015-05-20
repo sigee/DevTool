@@ -1,0 +1,23 @@
+{
+  "name": "sigee/DevTools",
+  "type": "library",
+  "description": "DeveloperTools",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sigee",
+      "email": "sigee15@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.6.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "DevTools\\": "src/DevTools/"
+    }
+  }
+}
