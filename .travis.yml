@@ -11,7 +11,7 @@ php:
 sudo: true
 
 before_script:
-    - travis_retry composer self-update
-    - travis_retry composer install --no-interaction --prefer-source --dev
+    - composer self-update
+    - composer install --no-interaction --prefer-source --dev
 
 script: phpunit
