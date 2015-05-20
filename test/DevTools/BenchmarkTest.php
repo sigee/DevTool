@@ -5,7 +5,7 @@ namespace Test\DevTools;
 class BenchmarkTest extends \PHPUnit_Framework_TestCase
 {
 
-    public function testCanBeNegated()
+    public function testNothing()
     {
         $this->assertTrue(true);
     }
